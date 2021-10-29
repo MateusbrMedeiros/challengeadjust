@@ -5,8 +5,10 @@ My project is for testing the API ([Reqres - A hosted REST-API ready to respond 
 
 # QA Engineer - Adjust Challenge
 
+## Requirements
+Requires Java 11.0.9 and Apache Maven 3.6.3
+
 ## Install and Run
-- Requires Java 11.0.9 for running this test.
 Using the IDE of your preference, clone the project to your computer and run the class "TestRequestAPI.java"
 
 ###  Function created to reutilize HTTP Status
