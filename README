@@ -1,0 +1,28 @@
+# README
+
+My project is for testing the API ([Reqres - A hosted REST-API ready to respond to your AJAX requests](https://reqres.in/)" with methods like Get, Post, Put and Delete. 
+
+
+# QA Engineer - Adjust Challenge
+
+## Install and Run
+Using the IDE of your preference, clone the project to your computer and run the class "TestRequestAPI.java"
+
+###  Function created to reutilize HTTP Status
+There is a function "createResSpec" who is being used to send the status code through all the methods of the API. This function enable me for passing parameters to check the status code are equal the API response.
+
+### Check the user name and surname: 
+The first test is for check if the user 2 has the first name "Janet" and the last name is "Weaver".
+
+### Check an inexistent user:
+This test case is being used to guarantee if the API isn't showing an invalid value when the user doesn't exists.
+
+### Send a valid email username and password
+This test case is used to send the email and password and to return the id and token for the user.
+
+### Update values for the client
+This test case is used to update the values of name and job for the user 2. The expected result is bring the name "morpheus" and job "zion resident"
+
+### Deleting the user
+The last case, is for deleting the user and bring the status code 204.
+
